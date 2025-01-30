@@ -1,0 +1,23 @@
+version: "3.0"
+
+stories:
+
+- story: demo_path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_deny
+  - intent: datascience
+  - action: utter_datascience
+  - intent: affirm
+  - action: utter_affirm
+  - intent: my_class
+  - action: utter_my_class
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: chat with GPT-4
+  steps:
+  - intent: ask_gpt
+  - action: action_chatgpt_response

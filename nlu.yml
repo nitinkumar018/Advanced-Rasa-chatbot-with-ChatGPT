@@ -1,0 +1,49 @@
+version: "3.0"
+
+nlu:
+- intent: ask_gpt
+  examples: |
+    - tell me about AI
+    - what is machine learning
+    - How does GPT-4 work?
+    - Explain blockchain
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+- intent: goodbye
+  examples: |
+    - see you
+    - good bye
+    - cee you later
+    - good night
+    - bye
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: my_class
+  examples: |
+    - how many students are there in DS class
+    - tell me the no. of students in this class
+    - I want to know the no. of students in this class 
+- intent: datascience
+  examples: |
+    - What is data science?
+    - tell me the meaning of data science?
+    - What does data science signifies?
+    

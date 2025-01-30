@@ -1,0 +1,39 @@
+version: "3.0"
+
+intents:
+  - ask_gpt
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - my_class
+  - datascience
+
+actions:
+  - action_chatgpt_response
+  
+responses: 
+  utter_greet:
+  - text: "Hey, I am Nitin can I help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_datascience:
+  - text: "its a study where you learn how to work on data"
+
+  utter_my_class:
+  - text: "There are 20 students in the class"
+
+  utter_affirm:
+  - text: "good you agree with me"
+
+  utter_deny:
+  - text: "sorry to hear you don't agree with me"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
