@@ -1,4 +1,5 @@
 # Project: Build an advanced Rasa chatbot with ChatGPT-4 
+## Rasa chatbot with ChatGPT-4 is created on anaconda prompt 
 ## chatgpt is a large language model (LLM) developed by openAI that uses machine learning algorithm to generate human like responses to the user inputs
 ## gpt-4/ text-davinci-004 is a LLM model from openAI's GPT-4 which excels in text generation, question answers and many NLP tasks
 ## sign up for openAI to get your API key (API key use to get response from the chatgpt)
@@ -14,4 +15,4 @@
 ## config.yml: it has configuration settings for your Rasa project such as pipeline 
 
 ## Once we integrate custom actions into Rasa chatbot's workflow, then, test the chatbot to ensure it properly interacts with chatgpt
-## deploy your Rasa chatbot with chatgpt on Anaconda Prompt 
+
