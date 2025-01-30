@@ -5,7 +5,7 @@
 ## sign up for openAI to get your API key (API key use to get response from the chatgpt)
 ## create a virtual environment on Anaconda Prompt and then install necessary libraries: openai, rasa
 ## set your API key on Anaconda Prompt using command: export OPENAI_API_KEY
-## once we create a basic chatbot, we can implement chatgpt in the actions.py file of your Rasa project. This will generate responses to user queries using chatgpt
+## once we create a basic chatbot, we can implement chatgpt in the actions.py file of the Rasa project. This will generate responses to user queries using chatgpt
 ## actions.py: it defines custom actions for your chatbot (custom actions are the actions that your chatbot performs during conversation) 
 ## credentials.yml: it has API key for chatgpt. However, due to security concern, Rasa does not support to store API key in this file. Instead handle API key in actions.py file 
 ## data folder (nlu.yml, stories.yml, rules.yml) has training data for your chatbot (we usually prefer stories.yml over rules.yml)
